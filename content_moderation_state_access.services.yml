@@ -1,0 +1,11 @@
+services:
+  access_check.edit_content:
+    class: Drupal\content_moderation_state_access\Access\EditContentCheck
+    arguments: ['@content_moderation.moderation_information']
+    tags:
+      - { name: access_check, applies_to: _entity_access }
+  access_check.view_content:
+    class: Drupal\content_moderation_state_access\Access\ViewContentCheck
+    arguments: ['@content_moderation.moderation_information']
+    tags:
+      - { name: access_check, applies_to: _entity_access }

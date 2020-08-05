@@ -1,0 +1,3 @@
+permission_callbacks:
+  - \Drupal\content_moderation_state_access\Permissions::editPermissions
+  - \Drupal\content_moderation_state_access\Permissions::viewPermissions

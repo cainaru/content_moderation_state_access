@@ -1,0 +1,13 @@
+name: Content Moderation State Access
+type: module
+description: Provides extra entity permissions for content in moderation states.
+# core: 8.x
+package: Other
+dependencies:
+  - content_moderation
+
+# Information added by Drupal.org packaging script on 2016-12-04
+version: '8.x-1.0+0-dev'
+core: '8.x'
+project: 'content_moderation_state_access'
+datestamp: 1480892286
